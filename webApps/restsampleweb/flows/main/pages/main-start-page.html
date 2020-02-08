@@ -1,0 +1,24 @@
+<div class="oj-flex">
+    <oj-label id="oj-label--1719362688-1" for="oj-input-text--1719362688-1" class="oj-flex-item oj-sm-12 oj-md-2">Project Id</oj-label>
+    <oj-input-text id="oj-input-text--1719362688-1" class="oj-flex-item oj-sm-12 oj-md-4" value="{{ $variables.varInputProjectId }}"></oj-input-text>
+    <div class="oj-flex-item oj-sm-12 oj-md-1"></div>
+    <div class="oj-flex-item oj-sm-12 oj-md-2">
+        <oj-button id="oj-button--1719362688-1" on-oj-action="[[$listeners.ojButton17193626881OjAction]]">Get Project Data</oj-button>
+    </div>
+</div>
+<div class="oj-flex">
+    <oj-label id="oj-label--1719362688-3" for="oj-input-text--1719362688-3" class="oj-flex-item oj-sm-12 oj-md-2">Project Name</oj-label>
+    <oj-input-text id="oj-input-text--1719362688-3" class="oj-flex-item oj-sm-12 oj-md-4" value="{{ $variables.varProjectDataResponse.ProjectName }}"></oj-input-text>
+</div>
+<div class="oj-flex">
+    <oj-label id="oj-label--1719362688-2" for="oj-input-text--1719362688-2" class="oj-flex-item oj-sm-12 oj-md-2">Project Description</oj-label>
+    <oj-input-text id="oj-input-text--1719362688-2" class="oj-flex-item oj-sm-12 oj-md-4" value="{{ $variables.varProjectDataResponse.ProjectDescription }}"></oj-input-text>
+</div>
+<div class="oj-flex">
+    <oj-label id="oj-label--1719362688-4" for="oj-input-text--1719362688-4" class="oj-flex-item oj-sm-12 oj-md-2">Project Start Date</oj-label>
+    <oj-input-text id="oj-input-text--1719362688-4" class="oj-flex-item oj-sm-12 oj-md-4" value="{{ $variables.varProjectDataResponse.ProjectStartDate }}"></oj-input-text>
+</div>
+<div class="oj-flex">
+    <oj-label id="oj-label--1719362688-5" for="oj-input-text--1719362688-5" class="oj-flex-item oj-sm-12 oj-md-2">Project Status</oj-label>
+    <oj-input-text id="oj-input-text--1719362688-5" class="oj-flex-item oj-sm-12 oj-md-4" value="{{ $variables.varProjectDataResponse.ProjectStatus }}"></oj-input-text>
+</div>

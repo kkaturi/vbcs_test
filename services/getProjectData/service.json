@@ -1,0 +1,455 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "GetProjectData",
+        "x-vb": {
+            "dt-serviceAuthentication": {
+                "type": "basic",
+                "credentials": "oracle_custom_71cdeac9-f0dc-4a8b-9991-5e14276a6c93"
+            },
+            "dt-wizardType": "rest"
+        },
+        "version": "1.0.0"
+    },
+    "schemes": [
+        "https"
+    ],
+    "host": "adc4-zeht-fa-ext.oracledemos.com",
+    "basePath": "/fscmRestApi/resources/11.13.18.05",
+    "definitions": {
+        "Getprojectsprojectid": {
+            "type": "object",
+            "properties": {
+                "AllowCrossChargeFlag": {
+                    "type": "boolean"
+                },
+                "BusinessUnitId": {
+                    "type": "number"
+                },
+                "BusinessUnitName": {
+                    "type": "string"
+                },
+                "CrossChargeLaborFlag": {
+                    "type": "boolean"
+                },
+                "CrossChargeNonLaborFlag": {
+                    "type": "boolean"
+                },
+                "EnableBudgetaryControlFlag": {
+                    "type": "boolean"
+                },
+                "ExternalProjectId": {
+                    "type": "any"
+                },
+                "HoursPerDay": {
+                    "type": "any"
+                },
+                "LaborTpFixedDate": {
+                    "type": "any"
+                },
+                "LaborTpSchedule": {
+                    "type": "any"
+                },
+                "LaborTpScheduleId": {
+                    "type": "any"
+                },
+                "LegalEntityId": {
+                    "type": "number"
+                },
+                "LegalEntityName": {
+                    "type": "string"
+                },
+                "NlTransferPriceFixedDate": {
+                    "type": "any"
+                },
+                "NlTransferPriceSchedule": {
+                    "type": "any"
+                },
+                "NlTransferPriceScheduleId": {
+                    "type": "any"
+                },
+                "NumberAttr01": {
+                    "type": "any"
+                },
+                "NumberAttr02": {
+                    "type": "any"
+                },
+                "NumberAttr03": {
+                    "type": "any"
+                },
+                "NumberAttr04": {
+                    "type": "any"
+                },
+                "NumberAttr05": {
+                    "type": "any"
+                },
+                "NumberAttr06": {
+                    "type": "any"
+                },
+                "NumberAttr07": {
+                    "type": "any"
+                },
+                "NumberAttr08": {
+                    "type": "any"
+                },
+                "NumberAttr09": {
+                    "type": "any"
+                },
+                "NumberAttr10": {
+                    "type": "any"
+                },
+                "OwningOrganizationId": {
+                    "type": "number"
+                },
+                "OwningOrganizationName": {
+                    "type": "string"
+                },
+                "ProjectCalendarId": {
+                    "type": "number"
+                },
+                "ProjectCalendarName": {
+                    "type": "string"
+                },
+                "ProjectCode01": {
+                    "type": "any"
+                },
+                "ProjectCode02": {
+                    "type": "any"
+                },
+                "ProjectCode03": {
+                    "type": "any"
+                },
+                "ProjectCode04": {
+                    "type": "any"
+                },
+                "ProjectCode05": {
+                    "type": "any"
+                },
+                "ProjectCode06": {
+                    "type": "any"
+                },
+                "ProjectCode07": {
+                    "type": "any"
+                },
+                "ProjectCode08": {
+                    "type": "any"
+                },
+                "ProjectCode09": {
+                    "type": "any"
+                },
+                "ProjectCode10": {
+                    "type": "any"
+                },
+                "ProjectCode11": {
+                    "type": "any"
+                },
+                "ProjectCode12": {
+                    "type": "any"
+                },
+                "ProjectCode13": {
+                    "type": "any"
+                },
+                "ProjectCode14": {
+                    "type": "any"
+                },
+                "ProjectCode15": {
+                    "type": "any"
+                },
+                "ProjectCode16": {
+                    "type": "any"
+                },
+                "ProjectCode17": {
+                    "type": "any"
+                },
+                "ProjectCode18": {
+                    "type": "any"
+                },
+                "ProjectCode19": {
+                    "type": "any"
+                },
+                "ProjectCode20": {
+                    "type": "any"
+                },
+                "ProjectCode21": {
+                    "type": "any"
+                },
+                "ProjectCode22": {
+                    "type": "any"
+                },
+                "ProjectCode23": {
+                    "type": "any"
+                },
+                "ProjectCode24": {
+                    "type": "any"
+                },
+                "ProjectCode25": {
+                    "type": "any"
+                },
+                "ProjectCode26": {
+                    "type": "any"
+                },
+                "ProjectCode27": {
+                    "type": "any"
+                },
+                "ProjectCode28": {
+                    "type": "any"
+                },
+                "ProjectCode29": {
+                    "type": "any"
+                },
+                "ProjectCode30": {
+                    "type": "any"
+                },
+                "ProjectCode31": {
+                    "type": "any"
+                },
+                "ProjectCode32": {
+                    "type": "any"
+                },
+                "ProjectCode33": {
+                    "type": "any"
+                },
+                "ProjectCode34": {
+                    "type": "any"
+                },
+                "ProjectCode35": {
+                    "type": "any"
+                },
+                "ProjectCode36": {
+                    "type": "any"
+                },
+                "ProjectCode37": {
+                    "type": "any"
+                },
+                "ProjectCode38": {
+                    "type": "any"
+                },
+                "ProjectCode39": {
+                    "type": "any"
+                },
+                "ProjectCode40": {
+                    "type": "any"
+                },
+                "ProjectCurrencyCode": {
+                    "type": "string"
+                },
+                "ProjectDescription": {
+                    "type": "string"
+                },
+                "ProjectEndDate": {
+                    "type": "string"
+                },
+                "ProjectId": {
+                    "type": "number"
+                },
+                "ProjectManagerEmail": {
+                    "type": "any"
+                },
+                "ProjectManagerName": {
+                    "type": "any"
+                },
+                "ProjectManagerResourceId": {
+                    "type": "any"
+                },
+                "ProjectName": {
+                    "type": "string"
+                },
+                "ProjectNumber": {
+                    "type": "string"
+                },
+                "ProjectPlanViewAccessCode": {
+                    "type": "string"
+                },
+                "ProjectPriorityCode": {
+                    "type": "any"
+                },
+                "ProjectStartDate": {
+                    "type": "string"
+                },
+                "ProjectStatus": {
+                    "type": "string"
+                },
+                "ProjectStatusCode": {
+                    "type": "string"
+                },
+                "ProjectTypeId": {
+                    "type": "number"
+                },
+                "ProjectTypeName": {
+                    "type": "string"
+                },
+                "ProjectUnitId": {
+                    "type": "number"
+                },
+                "ProjectUnitName": {
+                    "type": "string"
+                },
+                "ScheduleTypeCode": {
+                    "type": "string"
+                },
+                "ServiceType": {
+                    "type": "any"
+                },
+                "ServiceTypeCode": {
+                    "type": "any"
+                },
+                "SourceApplicationCode": {
+                    "type": "any"
+                },
+                "SourceProjectReference": {
+                    "type": "any"
+                },
+                "SourceTemplateId": {
+                    "type": "number"
+                },
+                "SourceTemplateName": {
+                    "type": "string"
+                },
+                "TextAttr01": {
+                    "type": "any"
+                },
+                "TextAttr02": {
+                    "type": "any"
+                },
+                "TextAttr03": {
+                    "type": "any"
+                },
+                "TextAttr04": {
+                    "type": "any"
+                },
+                "TextAttr05": {
+                    "type": "any"
+                },
+                "TextAttr06": {
+                    "type": "any"
+                },
+                "TextAttr07": {
+                    "type": "any"
+                },
+                "TextAttr08": {
+                    "type": "any"
+                },
+                "TextAttr09": {
+                    "type": "any"
+                },
+                "TextAttr10": {
+                    "type": "any"
+                },
+                "TextAttr11": {
+                    "type": "any"
+                },
+                "TextAttr12": {
+                    "type": "any"
+                },
+                "TextAttr13": {
+                    "type": "any"
+                },
+                "TextAttr14": {
+                    "type": "any"
+                },
+                "TextAttr15": {
+                    "type": "any"
+                },
+                "TextAttr16": {
+                    "type": "any"
+                },
+                "TextAttr17": {
+                    "type": "any"
+                },
+                "TextAttr18": {
+                    "type": "any"
+                },
+                "TextAttr19": {
+                    "type": "any"
+                },
+                "TextAttr20": {
+                    "type": "any"
+                },
+                "TransactionControlFlag": {
+                    "type": "boolean"
+                },
+                "WorkplanTemplateId": {
+                    "type": "any"
+                },
+                "WorkplanTemplateName": {
+                    "type": "any"
+                },
+                "WorkType": {
+                    "type": "string"
+                },
+                "WorkTypeId": {
+                    "type": "number"
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Link"
+                    }
+                }
+            }
+        },
+        "Link": {
+            "type": "object",
+            "properties": {
+                "rel": {
+                    "type": "string"
+                },
+                "href": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "kind": {
+                    "type": "string"
+                },
+                "properties": {
+                    "$ref": "#/definitions/Property"
+                }
+            }
+        },
+        "Property": {
+            "type": "object",
+            "properties": {
+                "changeIndicator": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "paths": {
+        "/projects/{projectId}": {
+            "get": {
+                "operationId": "getProjectsProjectId",
+                "parameters": [
+                    {
+                        "name": "projectId",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "default": {
+                        "examples": {
+                            "application/json": "{\n    \"AllowCrossChargeFlag\": false,\n    \"BusinessUnitId\": 300000046987012,\n    \"BusinessUnitName\": \"US1 Business Unit\",\n    \"CrossChargeLaborFlag\": false,\n    \"CrossChargeNonLaborFlag\": false,\n    \"EnableBudgetaryControlFlag\": false,\n    \"ExternalProjectId\": null,\n    \"HoursPerDay\": null,\n    \"LaborTpFixedDate\": null,\n    \"LaborTpSchedule\": null,\n    \"LaborTpScheduleId\": null,\n    \"LegalEntityId\": 300000046973970,\n    \"LegalEntityName\": \"US1 Legal Entity\",\n    \"NlTransferPriceFixedDate\": null,\n    \"NlTransferPriceSchedule\": null,\n    \"NlTransferPriceScheduleId\": null,\n    \"NumberAttr01\": null,\n    \"NumberAttr02\": null,\n    \"NumberAttr03\": null,\n    \"NumberAttr04\": null,\n    \"NumberAttr05\": null,\n    \"NumberAttr06\": null,\n    \"NumberAttr07\": null,\n    \"NumberAttr08\": null,\n    \"NumberAttr09\": null,\n    \"NumberAttr10\": null,\n    \"OwningOrganizationId\": 300000047013635,\n    \"OwningOrganizationName\": \"Consulting North US\",\n    \"ProjectCalendarId\": 300000047763119,\n    \"ProjectCalendarName\": \"Project Management Schedule\",\n    \"ProjectCode01\": null,\n    \"ProjectCode02\": null,\n    \"ProjectCode03\": null,\n    \"ProjectCode04\": null,\n    \"ProjectCode05\": null,\n    \"ProjectCode06\": null,\n    \"ProjectCode07\": null,\n    \"ProjectCode08\": null,\n    \"ProjectCode09\": null,\n    \"ProjectCode10\": null,\n    \"ProjectCode11\": null,\n    \"ProjectCode12\": null,\n    \"ProjectCode13\": null,\n    \"ProjectCode14\": null,\n    \"ProjectCode15\": null,\n    \"ProjectCode16\": null,\n    \"ProjectCode17\": null,\n    \"ProjectCode18\": null,\n    \"ProjectCode19\": null,\n    \"ProjectCode20\": null,\n    \"ProjectCode21\": null,\n    \"ProjectCode22\": null,\n    \"ProjectCode23\": null,\n    \"ProjectCode24\": null,\n    \"ProjectCode25\": null,\n    \"ProjectCode26\": null,\n    \"ProjectCode27\": null,\n    \"ProjectCode28\": null,\n    \"ProjectCode29\": null,\n    \"ProjectCode30\": null,\n    \"ProjectCode31\": null,\n    \"ProjectCode32\": null,\n    \"ProjectCode33\": null,\n    \"ProjectCode34\": null,\n    \"ProjectCode35\": null,\n    \"ProjectCode36\": null,\n    \"ProjectCode37\": null,\n    \"ProjectCode38\": null,\n    \"ProjectCode39\": null,\n    \"ProjectCode40\": null,\n    \"ProjectCurrencyCode\": \"USD\",\n    \"ProjectDescription\": \"Billable no burden for consulting services north region\",\n    \"ProjectEndDate\": \"2015-11-29\",\n    \"ProjectId\": 300000058801204,\n    \"ProjectManagerEmail\": null,\n    \"ProjectManagerName\": null,\n    \"ProjectManagerResourceId\": null,\n    \"ProjectName\": \"Stark Technology Upgrade \",\n    \"ProjectNumber\": \"PCS10020\",\n    \"ProjectPlanViewAccessCode\": \"ORA_PJT_PRJ_PLAN_VIEW_TEAM\",\n    \"ProjectPriorityCode\": null,\n    \"ProjectStartDate\": \"2013-09-30\",\n    \"ProjectStatus\": \"Closed\",\n    \"ProjectStatusCode\": \"CLOSED\",\n    \"ProjectTypeId\": 300000047539115,\n    \"ProjectTypeName\": \"US Billable no Burden\",\n    \"ProjectUnitId\": 300000047370493,\n    \"ProjectUnitName\": \"Consulting Services\",\n    \"ScheduleTypeCode\": \"FIXED_EFFORT\",\n    \"ServiceType\": null,\n    \"ServiceTypeCode\": null,\n    \"SourceApplicationCode\": null,\n    \"SourceProjectReference\": null,\n    \"SourceTemplateId\": 300000052497309,\n    \"SourceTemplateName\": \"US North Billable no Burden\",\n    \"TextAttr01\": null,\n    \"TextAttr02\": null,\n    \"TextAttr03\": null,\n    \"TextAttr04\": null,\n    \"TextAttr05\": null,\n    \"TextAttr06\": null,\n    \"TextAttr07\": null,\n    \"TextAttr08\": null,\n    \"TextAttr09\": null,\n    \"TextAttr10\": null,\n    \"TextAttr11\": null,\n    \"TextAttr12\": null,\n    \"TextAttr13\": null,\n    \"TextAttr14\": null,\n    \"TextAttr15\": null,\n    \"TextAttr16\": null,\n    \"TextAttr17\": null,\n    \"TextAttr18\": null,\n    \"TextAttr19\": null,\n    \"TextAttr20\": null,\n    \"TransactionControlFlag\": false,\n    \"WorkplanTemplateId\": null,\n    \"WorkplanTemplateName\": null,\n    \"WorkType\": \"Billable\",\n    \"WorkTypeId\": 300000047429582,\n    \"links\": [\n        {\n            \"rel\": \"self\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204\",\n            \"name\": \"projects\",\n            \"kind\": \"item\",\n            \"properties\": {\n                \"changeIndicator\": \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000002770400000002737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000037372001B6F7261636C652E6A626F2E646F6D61696E2E4E756C6C56616C75655899C1C58DAABEEB02000149000A6D53514C54797065496478700000000C78\"\n            }\n        },\n        {\n            \"rel\": \"canonical\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204\",\n            \"name\": \"projects\",\n            \"kind\": \"item\"\n        },\n        {\n            \"rel\": \"lov\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/lov/ServiceTypes\",\n            \"name\": \"ServiceTypes\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"lov\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/lov/WorkTypes\",\n            \"name\": \"WorkTypes\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"lov\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/lov/TransferPriceSchedules\",\n            \"name\": \"TransferPriceSchedules\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/TaskDependencies\",\n            \"name\": \"TaskDependencies\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectTeamMembers\",\n            \"name\": \"ProjectTeamMembers\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectTransactionControls\",\n            \"name\": \"ProjectTransactionControls\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/Tasks\",\n            \"name\": \"Tasks\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectCustomers\",\n            \"name\": \"ProjectCustomers\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectDFF\",\n            \"name\": \"ProjectDFF\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectOpportunities\",\n            \"name\": \"ProjectOpportunities\",\n            \"kind\": \"collection\"\n        },\n        {\n            \"rel\": \"child\",\n            \"href\": \"https://adc4-zeht-fa-ext.oracledemos.com:443/fscmRestApi/resources/11.13.18.05/projects/300000058801204/child/ProjectClassifications\",\n            \"name\": \"ProjectClassifications\",\n            \"kind\": \"collection\"\n        }\n    ]\n}"
+                        },
+                        "schema": {
+                            "$ref": "#/definitions/Getprojectsprojectid"
+                        },
+                        "description": "The content returned by the server."
+                    },
+                    "x-vb": {
+                        "inferred": {
+                            "default": true
+                        }
+                    }
+                },
+                "x-vb-actionHint": "retrieveOne"
+            }
+        }
+    }
+}
